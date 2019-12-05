@@ -61,6 +61,23 @@ navArray[5].textContent = siteContent.nav["nav-item-6"];
  navArray[4].style.color = 'green';
  navArray[5].style.color = 'green';
 
+ let logo = document.getElementById("logo-img");
+ logo.setAttribute('src', siteContent["nav"]["img-src"])
+ 
+ const title = document.querySelector('.cta-text h1');
+ title.textContent = 'Dom  Is  Awesome';
+ title.style.width = '10rem';
+ title.style.marginRight = '15rem';
 
 
-
+ const btn = document.querySelector('.cta button');
+ btn.textContent = 'Get Started';
+ btn.style.marginRight = '13rem';
+ btn.addEventListener('click', function () {
+   btn.style.background = 'red';
+   console.log('its red....!');
+ })
+ 
+ const titleImg = document.querySelector('#cta-img');
+ titleImg.src = 'img/header-img.png';
+ 
