@@ -69,7 +69,7 @@ navArray[5].textContent = siteContent.nav["nav-item-6"];
  title.style.width = '10rem';
  title.style.marginRight = '15rem';
 
-
+//!! CTA section with EventListener..//
  const btn = document.querySelector('.cta button');
  btn.textContent = 'Get Started';
  btn.style.marginRight = '13rem';
@@ -81,7 +81,7 @@ navArray[5].textContent = siteContent.nav["nav-item-6"];
  const titleImg = document.querySelector('#cta-img');
  titleImg.src = 'img/header-img.png';
 
- 
+ //!! Top Section...//
 const topConTitl = document.querySelectorAll('.text-content h4');
 topConTitl[0].textContent = siteContent.nav["nav-item-4"];
 topConTitl[1].textContent = siteContent.nav["nav-item-5"];
@@ -91,3 +91,23 @@ topConPara[0].textContent = 'Features content elementum magna eros, ac posuere e
 topConPara[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 const midImg = document.getElementById('middle-img');
 midImg.src = 'img/mid-page-accent.jpg'
+
+//!! Bottom section...//
+const bottomTitle = document.querySelectorAll('.bottom-content h4');
+bottomTitle[0].textContent = siteContent.nav["nav-item-1"];
+bottomTitle[1].textContent = siteContent.nav["nav-item-2"];
+bottomTitle[2].textContent = siteContent.nav["nav-item-3"];
+
+const botText = document.querySelectorAll('.bottom-content p');
+botText[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+botText[1].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+botText[2].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis'
+
+//!!footer / address section.....//
+
+const conTitle = document.querySelector('.contact h4');
+conTitle.textContent = 'Contact'
+const conAddress = document.querySelectorAll('.contact p');
+conAddress[0].textContent = '123 Way 456 Street \n Somewhere, USA'
+conAddress[1].textContent = '1 (888) 888-888'
+conAddress[2].textContent = 'sales@greatidea.io'
