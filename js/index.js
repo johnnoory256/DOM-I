@@ -80,4 +80,14 @@ navArray[5].textContent = siteContent.nav["nav-item-6"];
  
  const titleImg = document.querySelector('#cta-img');
  titleImg.src = 'img/header-img.png';
+
  
+const topConTitl = document.querySelectorAll('.text-content h4');
+topConTitl[0].textContent = siteContent.nav["nav-item-4"];
+topConTitl[1].textContent = siteContent.nav["nav-item-5"];
+
+const topConPara = document.querySelectorAll('.text-content p');
+topConPara[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+topConPara[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+const midImg = document.getElementById('middle-img');
+midImg.src = 'img/mid-page-accent.jpg'
